@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pic/v.png">
+    <script src="https://kit.fontawesome.com/fa8acceed4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="music_player">
+            <nav>
+                
+                <div class="circle"><img id="vimg" src="pic/v.png" alt=""></div>
+                <div id="togglebar" class="circle"><i id="iid" class="fa-solid fa-bars"></i></div>
+            </nav>
+
+            <div id="menu"  >
+                <div  class="menu-icons  icondiv1"><i id="i1" class="fa-solid fa-repeat"></i></div>
+                <div class="menu-icons  icondiv2" ><img id="i2" class="repeat1" src="pic/sound.png" alt="reapeat"></div>
+                <div class="menu-icons  icondiv3"><i id="i3" class="fa-solid fa-shuffle"></i></div>
+            </div>
+        
+            <img class="songimg" src="pic/vic.jpg" alt="">
+            <div class="texts"> 
+                <div class="h2wrapper">
+                    <div class="h2div">  <h2 id="h2"></h2>  </div>
+                </div>
+               
+                <div class="h4wrapper">  <div class="h4div"> <h4 id="h4">
+                </h4></div></div>
+              </div>
+           
+           
+
+            <audio id="song" >
+                <source src="">
+            </audio>
+
+            <div class="rangediv"> <input id="range" class="range" type="range"></div>
+           
+<div class="controls">
+    <div  ><i id="backward" class="fa-solid fa-backward"></i></div>
+    <div  ><i class="fa-solid fa-play"  id="control"></i></div>
+    
+    <div  ><i id="forward" class="fa-solid fa-forward"></i></div>
+</div>
+
+
+<div class="popwrapper"><div class="pop"></div></div>
+        </div>
+
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
