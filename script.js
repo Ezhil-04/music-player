@@ -14,9 +14,10 @@ const separatorPattern = /\,|\s+/;
 let songs=[
 {songname:"One day",url:"songs/song1.mp3",singer:"Mitisyahu"},
 {songname:"Maroon 5-Memories",url:"songs/song2.mp3",singer:"James valentine , Adam levine and Jesse carmichael"},
-{songname:"Poo avizhum pozhuthil",url:"songs/song3.mp3",singer:"Pradeep kumar"},
+{songname:"Poi vazhva",url:"songs/song3.mp3",singer:"Santhosh narayanan and Vijay Narain"},
 {songname:"Vidya vox - Be free",url:"songs/song4.mp3",singer:"Vandana iyer"},
-{songname:"Poi vazhva",url:"songs/song5.mp3",singer:"Santhosh narayanan and Vijay Narain"}
+{songname:"Poo avizhum pozhuthil",url:"songs/song5.mp3",singer:"Pradeep kumar"}
+
 ]
 
 let lastplayed=0;
