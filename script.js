@@ -11,11 +11,12 @@ let h2=document.getElementById("h2")
 let h4=document.getElementById("h4")
 const separatorPattern = /\,|\s+/;
 
-let songs=[{songname:"Kanavea nee",url:"music/song1.mp3",singer:"Sooraj Santhosh"},
-{songname:"Ithuvarai illatha",url:"music/song2.mp3",singer:"Uvan shankar raja"},
-{songname:"Po uravea",url:"music/song3.mp3",singer:"Sid Sriram"},
-{songname:"Poi Vazhva",url:"music/song4.mp3",singer:"Santhosh narayanan and Vijay Narain"},
-{songname:"Poo Avizhum Pozhuthil",url:"music/song5.mp3",singer:"Sid Sriram"},
+let songs=[
+{songname:"One day",url:"songs/song1.mp3",singer:"Mitisyahu"},
+{songname:"Maroon 5-Memories",url:"songs/song2.mp3",singer:"James valentine , Adam levine and Jesse carmichael"},
+{songname:"Poo avizhum pozhuthil",url:"songs/song3.mp3",singer:"Pradeep kumar"},
+{songname:"Vidya vox - Be free",url:"songs/song4.mp3",singer:"Vandana iyer"},
+{songname:"Poi vazhva",url:"songs/song5.mp3",singer:"Santhosh narayanan and Vijay Narain"}
 ]
 
 let lastplayed=0;
